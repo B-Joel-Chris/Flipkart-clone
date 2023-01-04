@@ -1,8 +1,8 @@
 import React from 'react'
 import {Slide} from "react-slideshow-image"
-import "./slideyboi.css"
+import "./Sliderelement.css"
 import 'react-slideshow-image/dist/styles.css'
-const Slidey = () => {
+const Sliderelement = () => {
   return (
     <div className='main-slideyboi'>
          <Slide>
@@ -24,4 +24,4 @@ const Slidey = () => {
   )
 }
 
-export default Slidey
+export default Sliderelement

@@ -2,7 +2,7 @@ import './App.css';
 import 'react-bootstrap'
 import Header from './Sharedcomponents/Header';
 import Home from './Pages/Home';
-import Cats from './Sharedcomponents/Cats';
+import Cats from './Sharedcomponents/Categories';
 
 function App() {
   return (

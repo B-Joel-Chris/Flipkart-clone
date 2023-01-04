@@ -1,13 +1,13 @@
 import React from 'react'
-import Slideyboi from '../../Sharedcomponents/Slideyboi'
 import './Home.css'
 import Categoryselect from '../../Sharedcomponents/categoryselect'
+import Sliderelement from '../../Sharedcomponents/Sliderelement/'
 
 const Home = () => {
   return (
     <div className='maincontainer-home'>
         <Categoryselect/>
-        <Slideyboi/>
+        <Sliderelement/>
     </div>
   )
 }
