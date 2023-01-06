@@ -1,10 +1,11 @@
-import React,{useEffect, useState} from 'react'
+import React,{createContext, useEffect, useState} from 'react'
 import axios from 'axios'
 import Catitem from './Catitem'
-import './cats.css'
-import { NavItem } from 'react-bootstrap'
+import './categories.css'
 
 const url = "https://fakestoreapi.com/products"
+
+
 
 const Cats = (cateitem) => {
     let itm = cateitem
@@ -22,11 +23,12 @@ const Cats = (cateitem) => {
     useEffect(()=>{catdata()},[])
     
   return (
- 
+      
      <div className='maincontainer-cats'>
       <div className='category-name'><p>Best of<br/>{itmtxt}</p><button className='viewall-btn'>View All</button></div>
       <Catitem data={myCats}/>
      </div>
+     
     //<img src = {x.image}/>>
   )
 }
