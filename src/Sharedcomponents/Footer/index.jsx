@@ -62,8 +62,8 @@ Bengaluru, 560103,
 Karnataka, India</p>
 </div>
         <div className='raddress'>
-            <p>Registered Office Address</p>
-            <p>Flipkart Internet Private Limited,
+            <p><span className='lititle'>Registered Office Address</span></p>
+            Flipkart Internet Private Limited,
 
 Buildings Alyssa, Begonia &
 
@@ -77,7 +77,7 @@ Karnataka, India
 
 CIN : U51109KA2012PTC066107
 
-Telephone: 044-45614700</p>
+Telephone: 044-45614700
         </div>
         </div>
 
